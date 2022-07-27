@@ -1,0 +1,170 @@
+html{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.brief {
+  background-color: rgb(52, 52, 247);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.vee {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+  color:black;
+  margin: 5px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bar {
+  display: none;
+  text-align: right;
+
+}
+
+
+.fa-bars, .fa-remove{
+  font-size:30px ;
+  margin-top: 10px;
+
+}
+
+.fa-bars, .fa-remove:hover{
+  cursor: pointer;
+}
+.a,.b,.c,.d,.e {
+  background-color: rgb(228, 224, 224);
+  text-align: left;
+  padding: 20px;
+  margin:1px;
+}
+
+.bar a{
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+.git {
+   border: none;
+   font-style: italics;
+   font-weight: bold;
+   font-size: 15px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index:1;
+  width: 100%;
+}
+
+.pro {
+  background-color: rgb(52, 52, 247);
+  border: none;
+  color: white;
+  font-style: normal;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.log {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+h3 {
+  margin: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.pic {
+  width: 500px;
+  height:500px;
+}
+.photo {
+  width: 99%;
+  height: 300px;
+  display: none;
+}
+.image {
+  margin: 40px;
+}
+.words {
+  width: 600px;
+}
+
+.first{
+   color: rgb(62, 62, 159);
+   font-size: 50px;
+   line-height: 50px;
+}
+
+.second {
+  line-height:30px;
+}
+.button {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  width: 200px;
+}
+
+.footer {
+  text-align:center ;
+  margin: 40px;
+}
+
+
+@media screen and (max-width:800px) {
+
+.first {
+  font-size: 35px;
+}
+.front {
+  display: none;
+}
+.nav {
+  display:none
+  
+}
+
+.bar {
+  display: block;
+}
+
+}
+@media screen and (max-width:900px) {
+  .pic {
+    display: none;
+  }
+  .photo {
+    display: block;
+  }
+}
